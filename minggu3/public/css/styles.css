@@ -43,7 +43,7 @@ form textarea {
 }
 
 form button {
-    background-color: #4caf50;
+    background-color: #008080;
     color: #ffffff;
     border: none;
     padding: 12px 20px;
@@ -53,11 +53,11 @@ form button {
 }
 
 form button:hover {
-    background-color: #FF7F50;
+    background-color: #008080;
 }
 
 a {
-    color: #4caf50;
+    color: #008080;
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
@@ -78,7 +78,7 @@ a:hover {
 .view-link, .edit-link {
     margin-right: 10px;
     text-decoration: none;
-    color: #4caf50;
+    color: #008080;
 }
 
 .delete-form {
@@ -88,7 +88,7 @@ a:hover {
 
 /* Additional CSS for the header */
 header {
-    background-color: #CD5C5C;
+    background-color: #008080;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;

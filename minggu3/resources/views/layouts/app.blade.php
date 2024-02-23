@@ -11,8 +11,8 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Create Task</a></li>
+                <li><a href="{{url('/task')}}">Home</a></li>
+                <li><a href="{{url('/task/create')}}">Create Task</a></li>
             </ul>
         </nav>
     </header>
