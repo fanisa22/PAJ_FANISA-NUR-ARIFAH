@@ -32,6 +32,12 @@ class TaskController extends Controller
         return redirect('/task')->with('success', 'Post berhasil diupdate!');
     }
 
+    public function delete(Task $task)
+    {
+        $task->delete();
+        return redirect('/task');
+    }
+
     public function store(TaskRequest $request){
         
         $validatedData = $request->validated(); 
